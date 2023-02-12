@@ -69,7 +69,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="borded-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">Confused Unga Bunga</p>
+              <p className="w-[85%] md:w-[90%] py-4">Front end Developer</p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
@@ -80,13 +80,13 @@ const Navbar = () => {
               <Link href="#about">
                 <li className="py-4 text-sm">About me</li>
               </Link>
-              <Link href="/">
+              <Link href="#projects">
                 <li className="py-4 text-sm">My projects</li>
               </Link>
-              <Link href="/">
+              <Link href="#skills">
                 <li className="py-4 text-sm">My skills</li>
               </Link>
-              <Link href="/">
+              <Link href="#contact">
                 <li className="py-4 text-sm">Contact me</li>
               </Link>
             </ul>
