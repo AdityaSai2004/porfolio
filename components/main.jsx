@@ -19,8 +19,8 @@ const Main = () => {
             A Front-End Web Developer and tech enthusiast
           </h1>
           <p className="py-4 text-[#ffffff] sm:max-w-[70%]">
-            I’m focused on building responsive front-end web applications and
-            learning ML
+            I&apos;m focused on building responsive front-end web applications
+            and learning ML
           </p>
           <Link href="#contact">
             <div className="py-4 align-content:center text-center">
