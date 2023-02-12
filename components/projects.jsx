@@ -4,7 +4,7 @@ import React from "react";
 import agrotis from "../public/assets/projects/agrotis.png";
 import fitnut from "../public/assets/projects/fitnut.jpg";
 import mood_music from "../public/assets/projects/mood-music.png";
-import Linktree from "../public/assets/projects/Linktree-clone.png";
+import Linktree from "../public/assets/projects/linktree-clone.png";
 import ProjectItem from "./ProjectItem.jsx";
 
 const Projects = () => {
