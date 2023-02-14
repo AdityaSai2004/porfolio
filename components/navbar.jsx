@@ -24,7 +24,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
-              <Link href="#about">About me</Link>
+              <Link href="#about">About Me</Link>
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
               <Link href="#projects">My Projects</Link>
@@ -33,7 +33,10 @@ const Navbar = () => {
               <Link href="#skills">My Skills</Link>
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
-              <Link href="#contact">Contact me</Link>
+              <Link href="#contact">Contact Me</Link>
+            </li>
+            <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
+              <Link href="/resume">My Resume</Link>
             </li>
           </ul>
           <div onClick={handleNav} className="md:hidden">
@@ -78,21 +81,24 @@ const Navbar = () => {
                 <li className="py-4 text-sm">Home</li>
               </Link>
               <Link href="#about">
-                <li className="py-4 text-sm">About me</li>
+                <li className="py-4 text-sm">About Me</li>
               </Link>
               <Link href="#projects">
-                <li className="py-4 text-sm">My projects</li>
+                <li className="py-4 text-sm">My Projects</li>
               </Link>
               <Link href="#skills">
-                <li className="py-4 text-sm">My skills</li>
+                <li className="py-4 text-sm">My Skills</li>
               </Link>
               <Link href="#contact">
-                <li className="py-4 text-sm">Contact me</li>
+                <li className="py-4 text-sm">Contact Me</li>
+              </Link>
+              <Link href="/resume">
+                <li className="py-4 text-sm">My Resume</li>
               </Link>
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
-                Follow me
+                Follow Me
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
