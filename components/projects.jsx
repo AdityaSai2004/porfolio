@@ -44,9 +44,11 @@ const Projects = () => {
         </div>
         <br />
         <div className="">
-          <a href="https://github.com/AdityaSai2004" className="mt-10px">
-            Click here to see more of my projects
-          </a>
+          <Link href="https://github.com/AdityaSai2004" className="mt-10px">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Click here to see more of my projects
+            </p>
+          </Link>
         </div>
       </div>
     </div>

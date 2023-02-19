@@ -1,7 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+import { IoChevronBackSharp } from "react-icons/io5";
 import Navbar from "../components/navbar";
-export default function Contact() {
+import React, { useState } from "react";
+
+export default function resume() {
   return (
     <div>
       <Head>
@@ -13,13 +17,25 @@ export default function Contact() {
       <h1>Resume</h1>
       <br />
       <br />
-      <div className="h-screen flex items-center justify-center">
-        <iframe
-          src="https://drive.google.com/file/d/1WB8dQLuuaLmbPOvq5s8k9JMTlYAZgcwj/preview"
-          width="640"
-          height="480"
-          allow="autoplay"
-        ></iframe>
+      <div className="flex flex-row-reverse justify-center">
+        <div className="h-screen flex items-center justify-center">
+          <iframe
+            src="https://drive.google.com/file/d/1WB8dQLuuaLmbPOvq5s8k9JMTlYAZgcwj/preview"
+            width="640"
+            height="480"
+            allow="autoplay"
+          ></iframe>
+        </div>
+        <div>
+          <Link href="/">
+            <div className="h-screen flex items-center justify-center p-4">
+              <IoChevronBackSharp
+                className=" rounded-lg bg-black text-white"
+                size={40}
+              />
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );
