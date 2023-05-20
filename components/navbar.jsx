@@ -36,7 +36,12 @@ const Navbar = () => {
               <Link href="#contact">Contact Me</Link>
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
-              <Link href="/resume">My Resume</Link>
+              <Link
+                href="https://drive.google.com/file/d/1WB8dQLuuaLmbPOvq5s8k9JMTlYAZgcwj/view"
+                target="_blank"
+              >
+                My Resume
+              </Link>
             </li>
           </ul>
           <div onClick={handleNav} className="md:hidden">
