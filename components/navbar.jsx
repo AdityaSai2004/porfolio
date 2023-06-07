@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
             <li className="text-sm font-semibold text-white hover:text-white hover:scale-110">
               <Link
-                href="https://drive.google.com/file/d/1WB8dQLuuaLmbPOvq5s8k9JMTlYAZgcwj/view"
+                href="https://drive.google.com/file/d/1lRTszV_H_iME0g9pFu-QoshGA7wfpp7Q/view"
                 target="_blank"
               >
                 My Resume
