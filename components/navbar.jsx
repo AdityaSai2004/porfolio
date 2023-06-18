@@ -99,7 +99,11 @@ const Navbar = () => {
               <Link href="#contact">
                 <li className="py-4 text-sm">Contact Me</li>
               </Link>
-              <Link href="/resume">
+              <Link href="https://drive.google.com/file/d/1lRTszV_H_iME0g9pFu-QoshGA7wfpp7Q/view"
+
+                target="_blank"
+
+>
                 <li className="py-4 text-sm">My Resume</li>
               </Link>
             </ul>
